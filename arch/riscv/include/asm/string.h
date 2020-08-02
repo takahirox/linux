@@ -26,6 +26,7 @@ extern asmlinkage void *__memmove(void *, const void *, size_t);
 
 #define memcpy(dst, src, len) __memcpy(dst, src, len)
 #define memset(s, c, n) __memset(s, c, n)
+#define memmove(dst, src, len) __memmove(dst, src, len)
 
 #endif
 #endif /* _ASM_RISCV_STRING_H */
